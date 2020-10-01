@@ -5694,6 +5694,9 @@ GameObject:
   - component: {fileID: 6824414663989706390}
   - component: {fileID: -1790404502128250952}
   - component: {fileID: -5648889704381692213}
+  - component: {fileID: 7975537996643590722}
+  - component: {fileID: 389376983488797402}
+  - component: {fileID: 6414641995860078183}
   m_Layer: 0
   m_Name: haru_greeter_t03
   m_TagString: Untagged
@@ -6144,6 +6147,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38c59881b659a3441a2f848adff7b930, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7975537996643590722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3617477445996557320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5ebe254d34723249a16ad2f6ba8058b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LayerCount: 1
+--- !u!114 &389376983488797402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3617477445996557320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a162b857e4416245819153f6e443839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6414641995860078183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3617477445996557320}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ee8b4ce6a654c44a7bf1f70d533a72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bodyAnimation: {fileID: 7400000, guid: 0c314557b35df4c44b06b64a2b8747a5, type: 2}
+  _tapBodyMotions: []
 --- !u!1 &3626753295350215289
 GameObject:
   m_ObjectHideFlags: 0
