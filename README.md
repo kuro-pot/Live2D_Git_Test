@@ -1,0 +1,2 @@
+# Live2D_Git_Test
+最新版unityでLive2DとGitのテスト
